@@ -10,10 +10,18 @@
     tools:context="id.sch.smktelkom_mlg.learn.intent1.MainActivity"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
+
+    <EditText
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/editTextNama"
+        android:hint="nama"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextUmur"
+        android:hint="umur"/>
 
     <Button
         android:layout_width="fill_parent"
